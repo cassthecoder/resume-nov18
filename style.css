@@ -1,0 +1,60 @@
+body{
+    background-image: url("Enlight11.jpg");
+    background-size:cover;
+    background-position: center top;
+}
+
+#name{
+    padding-top:25em;
+    /* background-color:rgba(0,0,0,.8); */
+}
+
+.flexxy{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-family: 'Abril Fatface', cursive;
+    color: #D9D6CD;
+    text-align: center;
+    font-size:3em;
+}
+
+.outline-dark {
+	text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+
+.outline-light {
+	text-shadow:
+		-1px -1px 0 #D9D6CD,
+		1px -1px 0 #D9D6CD,
+		-1px 1px 0 #D9D6CD,
+		1px 1px 0 #D9D6CD;
+}
+
+a{
+    padding: 1em;
+}
+
+a > img{
+    height: 30px;
+    width: auto;
+}
+
+#mail{
+    padding-top:1.5em;
+}
+
+a:hover{
+    background-color: #D9D6CD;
+}
+
+.icons{
+    background-color:rgba(217,214,205,.8);
+}
